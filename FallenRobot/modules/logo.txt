@@ -17,9 +17,9 @@ app.run()
 caption = """
 » ʟᴏɢᴏ sᴜᴄᴄᴇssꜰᴜʟʟʏ ɢᴇɴᴇʀᴀᴛᴇᴅ ʙᴀʙʏ​ «
 ◇───────────────◇
-💔 **ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ** : [ᴀɴᴏɴʏᴍᴏᴜs](https://t.me/anonymous_0_robot)
+💔 **ɢᴇɴᴇʀᴀᴛᴇᴅ ʙʏ ** : [KENZU](https://t.me/triplenineee)
 😇 **ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ ​** : {}
-💕 **ᴘᴏᴡᴇʀᴇᴅ ʙʏ​ **  : [𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦](https://t.me/anonymous_was_bot)
+💕 **ᴘᴏᴡᴇʀᴇᴅ ʙʏ​ **  : [KENZU ROBOT](https://t.me/Kenzutapibot)
 ◇───────────────◇️  
     """
 #logo creator
