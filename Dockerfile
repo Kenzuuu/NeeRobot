@@ -69,7 +69,7 @@ RUN git clone -b master https://github.com/Kenzuuu/NeeRobot /root/NeeRobot
 WORKDIR /root/FallenRobot
 
 #Copy config file to /root/NeeRobot/NeeRobot
-COPY ./NeeRobot/sample_config.py ./NeeRobot/config.py* /root/NeeRobot/NeeRobot/
+COPY ./FallenRobot/sample_config.py ./FallenRobot/config.py* /root/NeeRobot/NeeRobot/
 
 ENV PATH="/home/bot/bin:$PATH"
 
