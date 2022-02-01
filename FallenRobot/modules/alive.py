@@ -9,14 +9,14 @@ from FallenRobot.events import register
 from FallenRobot import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/93b08120e36d096cd21ca.jpg"
+PHOTO = "https://telegra.ph/file/a184ecef81e92a6854859.jpg"
 
 @register(pattern=("/alive"))
 async def awake(event):
-  TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ ᴀɴᴏɴʏᴍᴏᴜs ʀᴏʙᴏᴛ​.**\n━━━━━━━━━━━━━━━━━━━\n\n"
-  TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦](https://t.me/anonymous_was_bot)** \n\n"
-  TEXT += f"» **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{telever}` \n\n"
-  TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tlhver}` \n\n"
-  TEXT += f"» **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}` \n━━━━━━━━━━━━━━━━━\n\n"
-  BUTTON = [[Button.url("ʜᴇʟᴘ​", "https://t.me/anonymous_0_robot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/DevilsHeavenMF")]]
+  TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ ᴋᴇɴᴢᴜ ʀᴏʙᴏᴛ​.**\n━━━━━━━━━━━━━━━━━━━\n\n"
+  TEXT += f"☆ **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [KENZHU](https://t.me/triplenineee)** \n\n"
+  TEXT += f"☆ **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{telever}` \n\n"
+  TEXT += f"☆ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tlhver}` \n\n"
+  TEXT += f"☆ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}` \n━━━━━━━━━━━━━━━━━\n\n"
+  BUTTON = [[Button.url("ʜᴇʟᴘ​", "https://t.me/Kenzutapibot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/Kenzusupport")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=TEXT,  buttons=BUTTON)
